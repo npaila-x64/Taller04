@@ -3,7 +3,8 @@ package controlador;
 import modelo.Jugador;
 import modelo.Seleccion;
 import vista.PanelEditorJugador;
-import vista.PanelVisorJugadores;
+
+import java.util.List;
 
 public class ControladorEditorJugador {
 
@@ -17,15 +18,14 @@ public class ControladorEditorJugador {
         this.controlador.agregarPanel(vista, "visorJugadores");
     }
 
-    public void abrirVisorJugadores(Seleccion seleccion) {
-        this.seleccion = seleccion;
-        controlador.mostrarPanel("visorJugadores");
-    }
-
-    public void abrirEditorJugado(Jugador jugador) {
+    public void abrirEditorJugador(List<Jugador> jugadores) {
+        vista.cargarListaDeJugadores(jugadores);
         controlador.mostrarPanel("editorJugador");
     }
 
-    public void abrirEditorJugador(Jugador jugador) {
+    public void volverHaSidoSolicitado() {
+    }
+
+    public void guardarHaSidoSolicitado() {
     }
 }

@@ -3,9 +3,9 @@ package controlador;
 import modelo.Jugador;
 import modelo.Seleccion;
 import vista.Marco;
-
 import javax.swing.*;
 import java.awt.*;
+import java.util.List;
 
 public class ControladorAplicacion {
 
@@ -27,16 +27,12 @@ public class ControladorAplicacion {
         visorJugadores = new ControladorVisorJugadores(this);
     }
 
-    public void abrirVisorSelecciones() {
-        visorSelecciones.abrir();
-    }
-
     public void abrirVisorJugadores(Seleccion seleccionSeleccionada) {
         visorJugadores.abrirVisorJugadores(seleccionSeleccionada);
     }
 
-    public void abrirEditorJugador(Jugador jugador) {
-        editor.abrirEditorJugador(jugador);
+    public void abrirEditorJugador(List<Jugador> jugadores) {
+        editor.abrirEditorJugador(jugadores);
     }
 
     public void agregarPanel(Container panel, String nombre) {

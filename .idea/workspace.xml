@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3d0f74b-1ee1-4bf4-972c-7246c2c1dab2" name="Changes" comment="crea primer panel">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorEditorJugador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorVisorJugadores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/JugadoresTableModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/PanelEditorJugador.java" afterDir="false" />
+    <list default="true" id="c3d0f74b-1ee1-4bf4-972c-7246c2c1dab2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorAplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorAplicacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorEditarEquipo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorVisorEquipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorVisorSelecciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Jugador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Posicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Posicion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Seleccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Seleccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelEditarEquipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelVisorJugadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelVisorEquipos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelVisorSelecciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorEditorJugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorEditorJugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorVisorJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorVisorJugadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelEditorJugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelEditorJugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelVisorJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelVisorJugadores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +75,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>

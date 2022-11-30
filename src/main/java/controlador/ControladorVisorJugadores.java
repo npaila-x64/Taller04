@@ -72,4 +72,8 @@ public class ControladorVisorJugadores {
     public TableModel getModeloDeTabla() {
         return modeloDeTabla;
     }
+
+    public void playersHaSidoSolicitado() {
+        controlador.abrirEditorJugador(jugadores);
+    }
 }

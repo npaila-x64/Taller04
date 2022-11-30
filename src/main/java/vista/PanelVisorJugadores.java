@@ -3,7 +3,6 @@ package vista;
 import controlador.ControladorVisorJugadores;
 
 import javax.swing.*;
-import javax.swing.table.DefaultTableCellRenderer;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -73,6 +72,9 @@ public class PanelVisorJugadores extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == bBack) {
             controlador.volverHaSidoSolicitado();
+        }
+        if (e.getSource() == bPlayers) {
+            controlador.playersHaSidoSolicitado();
         }
     }
 }
