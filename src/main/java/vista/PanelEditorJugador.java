@@ -1,16 +1,16 @@
 package vista;
 
-import controlador.ControladorEditarEquipo;
+import controlador.ControladorEditorJugador;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class PanelEditarEquipo extends JPanel implements ActionListener {
+public class PanelEditorJugador extends JPanel implements ActionListener {
 
-    private ControladorEditarEquipo controlador;
+    private ControladorEditorJugador controlador;
 
-    public PanelEditarEquipo(ControladorEditarEquipo controlador) {
+    public PanelEditorJugador(ControladorEditorJugador controlador) {
         this.controlador = controlador;
         setVisible(true);
     }

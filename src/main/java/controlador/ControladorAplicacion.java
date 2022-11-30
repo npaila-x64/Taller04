@@ -1,5 +1,7 @@
 package controlador;
 
+import modelo.Jugador;
+import modelo.Seleccion;
 import vista.Marco;
 
 import javax.swing.*;
@@ -8,27 +10,33 @@ import java.awt.*;
 public class ControladorAplicacion {
 
     private Marco vista;
-    private ControladorVisorEquipo visor;
-    private ControladorEditarEquipo editor;
+    private ControladorVisorSelecciones visorSelecciones;
+    private ControladorEditorJugador editor;
+    private ControladorVisorJugadores visorJugadores;
 
     public void iniciar() {
         vista = new Marco();
         crearControladores();
         vista.setVisible(true);
-        visor.abrir();
+        visorSelecciones.abrir();
     }
 
     private void crearControladores() {
-        visor = new ControladorVisorEquipo(this);
-        editor = new ControladorEditarEquipo(this);
+        visorSelecciones = new ControladorVisorSelecciones(this);
+        editor = new ControladorEditorJugador(this);
+        visorJugadores = new ControladorVisorJugadores(this);
     }
 
-    public void abrirVisor() {
-        visor.abrir();
+    public void abrirVisorSelecciones() {
+        visorSelecciones.abrir();
     }
 
-    public void abrirEditor() {
-        editor.abrir();
+    public void abrirVisorJugadores(Seleccion seleccionSeleccionada) {
+        visorJugadores.abrirVisorJugadores(seleccionSeleccionada);
+    }
+
+    public void abrirEditorJugador(Jugador jugador) {
+        editor.abrirEditorJugador(jugador);
     }
 
     public void agregarPanel(Container panel, String nombre) {

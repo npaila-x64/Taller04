@@ -1,6 +1,6 @@
 package vista;
 
-import controlador.ControladorVisorEquipo;
+import controlador.ControladorVisorSelecciones;
 import modelo.Seleccion;
 
 import javax.swing.*;
@@ -8,9 +8,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class PanelVisorEquipos extends JPanel implements ActionListener {
+public class PanelVisorSelecciones extends JPanel implements ActionListener {
 
-    private ControladorVisorEquipo controlador;
+    private ControladorVisorSelecciones controlador;
     private JComboBox cSelecciones;
     private JLabel iconoSeleccion;
     private JLabel lChoose;
@@ -19,7 +19,7 @@ public class PanelVisorEquipos extends JPanel implements ActionListener {
     private JButton bExit;
     private JButton bPlayers;
 
-    public PanelVisorEquipos(ControladorVisorEquipo controlador) {
+    public PanelVisorSelecciones(ControladorVisorSelecciones controlador) {
         this.controlador = controlador;
         crearComponentes();
         setVisible(true);

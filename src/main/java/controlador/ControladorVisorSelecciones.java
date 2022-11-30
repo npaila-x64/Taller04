@@ -2,23 +2,24 @@ package controlador;
 
 import modelo.Seleccion;
 import util.Utilidades;
-import vista.PanelVisorEquipos;
+import vista.PanelVisorSelecciones;
 
 import javax.swing.*;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ControladorVisorEquipo {
+public class ControladorVisorSelecciones {
 
-    private PanelVisorEquipos vista;
+    private PanelVisorSelecciones vista;
     private ControladorAplicacion controlador;
     private List<Seleccion> selecciones;
+    private Seleccion seleccionSeleccionada;
 
-    public ControladorVisorEquipo(ControladorAplicacion controlador) {
+    public ControladorVisorSelecciones(ControladorAplicacion controlador) {
         this.controlador = controlador;
-        vista = new PanelVisorEquipos(this);
-        this.controlador.agregarPanel(vista, "visor");
+        vista = new PanelVisorSelecciones(this);
+        this.controlador.agregarPanel(vista, "visorSelecciones");
         this.selecciones = new ArrayList<>();
     }
 
@@ -41,6 +42,7 @@ public class ControladorVisorEquipo {
             seleccion.setRanking(Integer.parseInt(campos[2]));
             ImageIcon icono = new ImageIcon("src/main/datos/banderas/".concat(campos[3]));
             seleccion.setIcono(icono);
+            seleccion.setNombreArchivo((campos[3]).split("\\.")[0]);
             selecciones.add(seleccion);
         }
     }
@@ -54,14 +56,15 @@ public class ControladorVisorEquipo {
 
     public void abrir() {
         cargarSelecciones();
-        controlador.mostrarPanel("visor");
+        controlador.mostrarPanel("visorSelecciones");
     }
 
     public void cargarEquipoHaSidoSolicitado(Object nombre) {
-        vista.cargarSeleccion(selecciones
+        seleccionSeleccionada = selecciones
                 .stream()
                 .filter(t -> t.getNombre().equals(nombre))
-                .findFirst().orElse(new Seleccion()));
+                .findFirst().orElse(new Seleccion());
+        vista.cargarSeleccion(seleccionSeleccionada);
     }
 
     public void salirHaSidoSolicitado() {
@@ -69,6 +72,6 @@ public class ControladorVisorEquipo {
     }
 
     public void editarJugadoresHaSidoSolicitado() {
-
+        controlador.abrirVisorJugadores(seleccionSeleccionada);
     }
 }
