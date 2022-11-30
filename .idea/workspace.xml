@@ -4,36 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3d0f74b-1ee1-4bf4-972c-7246c2c1dab2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/datos/alineaciones/aus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/datos/alineaciones/chi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/datos/alineaciones/cmr.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/datos/alineaciones/ger.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/datos/banderas/aus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/datos/banderas/chi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/datos/banderas/cmr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/datos/banderas/ger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/datos/teams.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorAplicacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorEditarEquipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorVisorEquipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lanzador/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Jugador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Posicion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Seleccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Utilidades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/Marco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/PanelEditarEquipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/PanelVisorEquipos.java" afterDir="false" />
+    <list default="true" id="c3d0f74b-1ee1-4bf4-972c-7246c2c1dab2" name="Changes" comment="commit inicial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorAplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorAplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorVisorEquipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorVisorEquipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Seleccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Seleccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Utilidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Utilidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelVisorEquipos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelVisorEquipos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -103,6 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669783167390</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit inicial">
+      <created>1669810780110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669810780110</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit inicial" />
   </component>
 </project>

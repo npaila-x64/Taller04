@@ -42,4 +42,8 @@ public class ControladorAplicacion {
     public void mostrarPanel(String panel) {
         vista.mostrarPanel(panel);
     }
+
+    public void salirHaSidoSolicitado() {
+        System.exit(0);
+    }
 }
